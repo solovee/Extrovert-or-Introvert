@@ -47,10 +47,10 @@ def predict_personality():
 
         # Interpretar a predição
         if prediction[0][0] > 0.5:
-            predicted_personality = f"Extrovertido {prediction[0][0]:.2f}%"
+            predicted_personality = f"Extrovertido {prediction[0][0] * 100:.2f}%"
             detailed_msg = "Você demonstra características de um extrovertido! Adora interagir, se sente energizado(a) na presença de outras pessoas e é bastante ativo(a) socialmente."
         else:
-            predicted_personality = f"Introvertido {1 - prediction[0][0]:.2f}%"
+            predicted_personality = f"Introvertido {1 - prediction[0][0] * 100:.2f}%"
             detailed_msg = "Você apresenta traços de uma personalidade introvertida! Prefere a tranquilidade, recarrega as energias sozinho(a) e pode ser mais reservado(a) em grupos grandes."
 
         # Exibir o resultado
