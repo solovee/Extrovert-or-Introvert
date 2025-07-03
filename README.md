@@ -1,0 +1,1 @@
+Projeto final da disciplina de IA, o projeto apresenta uma ferramenta de classificação de personalidade de Extrovertido, Introvertido e Ambivertido através de modelos de Machine Learning (MLP, SVM e RandomForest)
