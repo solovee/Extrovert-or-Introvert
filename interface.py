@@ -102,7 +102,7 @@ def reset_inputs():
     drained_after_socializing_var.set("No")
     friends_circle_size_var.set("0")
     post_frequency_var.set("0")
-    model_selection_var.set("MLP") 
+    model_selection_var.set("SVM") 
     result_label.config(text="Previsão: Aguardando entrada...", foreground="black") 
     detailed_message_label.config(text="", foreground="black") 
     update_model_description() 
